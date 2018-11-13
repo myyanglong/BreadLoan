@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg">#3a90e3</color>
+    <color name="white">#ffffff</color>
+    <color name="button_cancel">#dedede</color>
+    <color name="hint_text">#fff</color>
+    <color name="defaul">#8A8A8A</color>
+    <color name="select">#0F65BA</color>
+    <color name="back">#000</color>
+    <color name="weixuanzhong">#98B3CC</color>
+    <color name="yelsow">#188AFE</color>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_lin"
+       />
+
+
+    <LinearLayout
+
+        android:id="@+id/main_lin"
+        android:background="#F8F8F8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ABADBB"
+            tools:ignore="Suspicious0dp"></LinearLayout>
+        <RadioGroup
+            android:layout_marginTop="5dp"
+            android:id="@+id/main_readiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+
+
+            <RadioButton
+                android:layout_marginLeft="20dp"
+                android:id="@+id/center_radio"
+                android:checked="true"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab_2button_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:textColor="@drawable/tab_button_text"
+                android:text="全部借款"
+                />
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+            <RadioButton
+                android:id="@+id/right2_radio"
+                android:drawableTop="@drawable/tab_5button_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:button="@null"
+                android:drawablePadding="4dp"
+                android:textColor="@drawable/tab_button_text"
+                android:gravity="center"
+                android:text="必定下款"
+               />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+            <RadioButton
+                android:layout_marginRight="20dp"
+                android:id="@+id/right6_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/tab_4button_img"
+                android:text="关于我们"
+                android:textColor="@drawable/tab_button_text"
+                />
+
+
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

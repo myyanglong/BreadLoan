@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:top="0dp"
+        >
+        <shape>
+            <solid android:color="@color/button_cancel"/>
+            <corners android:radius="0dp"/>
+        </shape>
+    </item>
+</layer-list>
